@@ -277,6 +277,17 @@ h3 {
                                     OUR WORK
 =============================================================================*/
 
+.work-title {
+  z-index: 100;
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
 /* [class*col-] : selects all(*) of the elements with class "col-" inside of the "no-gutters row" */
 .row.no-gutters [class*=col-] {
   padding-left: 0;
@@ -291,7 +302,6 @@ transition makes the zooms smooth instead of instant */
 .img-wrapper {
   overflow: hidden;
 }
-
 .img-wrapper img {
   -webkit-transition: -webkit-transform .5s ease;
   transition: -webkit-transform .5s ease;
